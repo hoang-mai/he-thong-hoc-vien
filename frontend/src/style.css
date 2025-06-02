@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --color-text-red: #CE1628; /* text active */
+  --color-text-gray: #646A7C; /* text inactive */
+  --color-text-white: #FFFFFF; /* text white */
+  --color-text-black: #000000; /* text black */
+  --color-text-blue: #0d6efd; /* text link */
+
+  --color-bg-red: #aa1d2b; /* Header */
+  --color-bg-gray: #f2f6fc; /* Background */
+  --color-bg-white: #FFFFFF; /* Background white */
+
+  --color-border-gray: #d9d9d9; /* Border */
+
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
